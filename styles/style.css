@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -63,6 +63,7 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
   display: none;
+  flex-grow: 1;
 }
 .text-input:focus {
   color: #333;
@@ -73,7 +74,8 @@ body {
   margin-top: 20px;
   display: flex;
 }
-.add-task__input {
+.add-task__input,
+.item__label {
   display: inline-block;
   flex-grow: 1;
 }
