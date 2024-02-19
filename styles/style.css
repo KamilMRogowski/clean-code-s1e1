@@ -7,7 +7,6 @@ body {
 .header {
   width: 500px;
   margin: 0 auto;
-  display: block;
   text-align: right;
 }
 .header__img {
@@ -23,18 +22,13 @@ body {
   }
 }
 .main {
-  display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 .list {
   margin: 0;
   padding: 0px;
 }
-.list li{
-  list-style: none;
-}
-
 .button {
   background: none;
   border: 0px;
@@ -75,26 +69,23 @@ body {
 }
 
 /* New Task */
-.add-task__input {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
 .add-task__container {
   margin-top: 20px;
   display: flex;
 }
+.add-task__input {
+  display: inline-block;
+  flex-grow: 1;
+}
 
 /* Task list */
 .list__item {
-  overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .list__checkbox {
   margin: 0 10px;
 }
